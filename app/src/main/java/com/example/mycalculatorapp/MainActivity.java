@@ -77,9 +77,22 @@ public class MainActivity extends AppCompatActivity {
         int num2 = Integer.parseInt(num2EditText.getText().toString());
 
         // add the two ints
-        int output = num1 * num2;
+        int output = num1 / num2;
 
         // set the text for the answer
         ansTextView.setText("Answer: " + output);
+    }
+
+    public void clear(View v) {
+        // Get references to all elements on app screen
+        EditText num1EditText = (EditText) findViewById(R.id.num1EditText);
+        EditText num2EditText = (EditText) findViewById(R.id.num2EditText);
+        TextView ansTextView = (TextView) findViewById(R.id.ansTextView);
+
+
+        // set the text for the all
+        ansTextView.setText("Answer: ");
+        num1EditText.setText("");
+        num2EditText.setText("");
     }
 }
