@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
         TextView ansTextView = (TextView) findViewById(R.id.ansTextView);
 
         // get the values from the EditText boxes and convert them to int data types
-        int num1 = Integer.parseInt(num1EditText.getText().toString());
-        int num2 = Integer.parseInt(num2EditText.getText().toString());
+        double num1 = Double.parseDouble(num1EditText.getText().toString());
+        double num2 = Double.parseDouble(num2EditText.getText().toString());
 
         // add the two ints
-        int sum = num1 + num2;
+        double sum = num1 + num2;
 
         // set the text for the answer
         ansTextView.setText("Answer: " + sum);
@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
         TextView ansTextView = (TextView) findViewById(R.id.ansTextView);
 
         // get the values from the EditText boxes and convert them to int data types
-        int num1 = Integer.parseInt(num1EditText.getText().toString());
-        int num2 = Integer.parseInt(num2EditText.getText().toString());
+        double num1 = Double.parseDouble(num1EditText.getText().toString());
+        double num2 = Double.parseDouble(num2EditText.getText().toString());
 
         // add the two ints
-        int diff = num1 - num2;
+        double diff = num1 - num2;
 
         // set the text for the answer
         ansTextView.setText("Answer: " + diff);
@@ -56,11 +56,11 @@ public class MainActivity extends AppCompatActivity {
         TextView ansTextView = (TextView) findViewById(R.id.ansTextView);
 
         // get the values from the EditText boxes and convert them to int data types
-        int num1 = Integer.parseInt(num1EditText.getText().toString());
-        int num2 = Integer.parseInt(num2EditText.getText().toString());
+        double num1 = Double.parseDouble(num1EditText.getText().toString());
+        double num2 = Double.parseDouble(num2EditText.getText().toString());
 
         // add the two ints
-        int product = num1 * num2;
+        double product = num1 * num2;
 
         // set the text for the answer
         ansTextView.setText("Answer: " + product);
@@ -73,11 +73,11 @@ public class MainActivity extends AppCompatActivity {
         TextView ansTextView = (TextView) findViewById(R.id.ansTextView);
 
         // get the values from the EditText boxes and convert them to int data types
-        int num1 = Integer.parseInt(num1EditText.getText().toString());
-        int num2 = Integer.parseInt(num2EditText.getText().toString());
+        double num1 = Double.parseDouble(num1EditText.getText().toString());
+        double num2 = Double.parseDouble(num2EditText.getText().toString());
 
         // add the two ints
-        int output = num1 / num2;
+        double output = num1 / num2;
 
         // set the text for the answer
         ansTextView.setText("Answer: " + output);
