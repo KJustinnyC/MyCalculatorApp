@@ -52,7 +52,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="num 2"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.169"
         app:layout_constraintStart_toStartOf="parent"
